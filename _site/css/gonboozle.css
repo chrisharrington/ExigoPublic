@@ -16,3 +16,8 @@ text-shadow: 2px 3px gray;
     {
       float: right;
     }
+
+    .majorRow
+    {
+    	margin-top: 200px;
+    }
