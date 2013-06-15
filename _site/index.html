@@ -11,6 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" charset="UTF-8">
     <link href="css/bootstrap-responsive.css" rel="stylesheet" charset="UTF-8">
     <link href="css/gonboozle.css" rel="stylesheet" charset="UTF-8">
+    <link href="css/jquery.fancybox.css" rel="stylesheet" charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
     <style>
 
@@ -68,10 +69,7 @@
       margin-top: 10px;
     }
 
-    .nav
-    {
-      float: right;
-    }
+
 
 
     /* CUSTOMIZE THE CAROUSEL
@@ -284,7 +282,7 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="#">Homes</a></li>
+                <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
@@ -397,6 +395,17 @@
           <h2>Dashboard</h2>
         </div>
       </div>     
+      <div class="row">
+        <div class="span4">
+          <a href="img/Preservations1024.png" title="Preservation tracking" class="lightbox"><img src="img/PreservationsThumb.png"></img></a>
+        </div>
+        <div class="span4">
+          <a href="img/CompletionsDemo1024.png" title="" class="lightbox"><img src="img/CompletionsDemoThumb.png"></img></a>
+        </div>
+        <div class="span4">
+          <a href="img/AllProjects1024.png" title="Multiple projects from a single dashboard" class="lightbox"><img src="img/AllProjectsThumb.png"></img></a>
+        </div>
+      </div>
 
       <div class="row">
         <a name="about"></a>
@@ -436,12 +445,23 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.2.js" charset="UTF-8"></script>
     <script src="js/bootstrap.js" charset="UTF-8"></script>
+    <script src="js/jquery.fancybox.js" charset="UTF-8"></script>
 
     <script charset="UTF-8">
       !function ($) {
         $(function(){
           // carousel demo
-          $('#myCarousel').carousel()
+          $('#myCarousel').carousel();
+          $(".lightbox").fancybox({
+      openEffect  : 'elastic',
+      closeEffect : 'elastic',
+
+      helpers : {
+        title : {
+          type : 'inside'
+        }
+      }
+    });
         })
       }(window.jQuery)
     </script>

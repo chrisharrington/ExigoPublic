@@ -11,6 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" charset="UTF-8">
     <link href="css/bootstrap-responsive.css" rel="stylesheet" charset="UTF-8">
     <link href="css/gonboozle.css" rel="stylesheet" charset="UTF-8">
+    <link href="css/jquery.fancybox.css" rel="stylesheet" charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
     <style>
 
@@ -68,10 +69,7 @@
       margin-top: 10px;
     }
 
-    .nav
-    {
-      float: right;
-    }
+
 
 
     /* CUSTOMIZE THE CAROUSEL
@@ -275,12 +273,23 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.2.js" charset="UTF-8"></script>
     <script src="js/bootstrap.js" charset="UTF-8"></script>
+    <script src="js/jquery.fancybox.js" charset="UTF-8"></script>
 
     <script charset="UTF-8">
       !function ($) {
         $(function(){
           // carousel demo
-          $('#myCarousel').carousel()
+          $('#myCarousel').carousel();
+          $(".lightbox").fancybox({
+      openEffect  : 'elastic',
+      closeEffect : 'elastic',
+
+      helpers : {
+        title : {
+          type : 'inside'
+        }
+      }
+    });
         })
       }(window.jQuery)
     </script>
