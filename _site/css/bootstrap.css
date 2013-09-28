@@ -3360,15 +3360,15 @@ input[type="button"].btn-block {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #006dcc;
-  *background-color: #0044cc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-color: #f66b00;
+  *background-color: #f66b00;
+  background-image: -moz-linear-gradient(top, #f69a35, #f66b00);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f69a35), to(#f66b00));
+  background-image: -webkit-linear-gradient(top, #f69a35, #f66b00);
+  background-image: -o-linear-gradient(top, #f69a35, #f66b00);
+  background-image: linear-gradient(to bottom, #f69a35, #f66b00);
   background-repeat: repeat-x;
-  border-color: #0044cc #0044cc #002a80;
+  border-color: #f66b00 #f66b00 #f66b00;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3381,8 +3381,8 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #0044cc;
-  *background-color: #003bb3;
+  background-color: #f66b00;
+  *background-color: #f66b00;
 }
 
 .btn-primary:active,
