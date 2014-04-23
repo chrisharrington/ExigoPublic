@@ -52,5 +52,18 @@ header>div.inner-header>ul>li { float:left; height:100%; }
 header>div.inner-header>ul>li>a { float:left; padding:0 20px; color:grey; text-decoration:none; cursor:pointer; height:100%; display:inline-block; line-height:40px; vertical-align:middle; }
 header>div.inner-header>ul>li>a:hover { color:white; }
 
-#myCarousel { float:left; width:100%; }
+#myCarousel { float:left; width:100%; margin-bottom:10px; }
 ul.nav { margin-bottom:0 !important; }
+
+h2 { text-transform:uppercase; font-family:Oswald; margin:0; line-height:31px; }
+
+div.row-container { float:left; width:100%;  }
+div.row-container>div { width:1170px; margin:auto; }
+div.row-container>div>div { float:left; width:100%; margin-top:35px; }
+div.row-container>div>div>div { float:left; width:100%; box-sizing:border-box; -moz-box-sizing:border-box; padding:25px; }
+div.row-container>div>div>div>i, div.row-container>div>div>div>h2 { display:inline-block; vertical-align:middle; line-height:54px; height:54px; }
+div.row-container>div>div>div>i { float:left; font-size:54px; color:#f79234; }
+div.row-container>div>div>div>h2 { float:left; margin-left:20px; height:54px; }
+div.row-container>div>div>div>span { float:left; width:100%; margin-top:15px; color:#999; }
+div.row-container>div>div.three>div { width:33.3333%; border-left:solid 1px #DDD; }
+div.row-container>div>div.three>div:first-child { border-left:none; }

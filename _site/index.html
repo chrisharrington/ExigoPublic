@@ -14,6 +14,8 @@
     <link href="css/jquery.fancybox.css" rel="stylesheet" charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <style>
 
     /* GLOBAL STYLES
@@ -24,7 +26,6 @@
       padding-bottom: 40px;
       color: #5a5a5a;
     }
-
 
 
     /* CUSTOMIZE THE NAVBAR
@@ -267,9 +268,7 @@
 
   </head>
 <body>
-  <!-- NAVBAR
-    ================================================== -->
-  <header>
+    <header>
       <div class="inner-header">
           <img src="img/logo.png" />
           <ul class="nav">
@@ -277,67 +276,8 @@
               <li><a href="#contact">Contact</a></li>
           </ul>
       </div>
-  </header>
+    </header>
 
-    <div class="navbar-wrapper" style="display:none;">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <span class="nav-title"><a href="/"><span style="color:#f77900">Exigo</span><span style="color: white">Completions</span></a>
-            <div class="logo-line-container">
-                <hr class="logo-line" style="width: 40px;
-                    margin-top: 0px;
-                    background: -webkit-gradient(linear, 10 0,100% 0, from(white), to(#333333));">
-                <hr class="logo-line" style="width: 60px;
-                    margin-top: 15px;
-                    background: -webkit-gradient(linear, 18 0,100% 0, from(white), to(#333333));">
-                <hr class="logo-line" style="width: 80px;
-                    margin-top: 30px;
-                    background: -webkit-gradient(linear, 28 0,100% 0, from(white), to(#333333));">
-                <hr class="logo-line" style="width: 100px;
-                    margin-top: 45px;
-                    background: -webkit-gradient(linear, 38 0,100% 0, from(white), to(#333333));">
-            </div>
-            </span>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                <!--<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Getting started</a></li>
-                    <li><a href="#">Adding your own strategy</a></li>
-                    <li><a href="#">Using domain packs</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Advanced</li>
-                    <li><a href="#">Building a domain pack</a></li>
-                    <li><a href="#">Contributing</a></li>
-                  </ul>
-                </li>-->
-              </ul>
-            </div><!--/.nav-collapse -->
-            <div class="nav-subtitle">Completions and Commissioning Services</div>
-          </div><!-- /.navbar-inner -->
-
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
-    <!-- Carousel
-    ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
@@ -383,80 +323,58 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
+    </div>
+
+    <div class="row-container">
+        <div>
+            <div class="three">
+                <div>
+                    <i class="fa fa-cloud"></i>
+                    <h2>Hosted</h2>
+                    <span>We'll take care of setting up servers and access so you don't have to worry about it.  Backups, restores, user management - we take care of it all!</span>
+                </div>
+                <div>
+                    <i class="fa fa-check"></i>
+                    <h2>Proven</h2>
+                    <span>Our team has helped ensure the safe startup of numerous projects. We know the pitfalls - let us help you avoid them.</span>
+                </div>
+                <div>
+                    <i class="fa fa-wrench"></i>
+                    <h2>Customizable</h2>
+                    <span>We've thought of most of the functionality you'll require. However, if there is something special you need then we can help out and build a solution to fit.</span>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fa fa-bolt"></i>
+                    <h2>Modern Completions</h2>
+                    <span>Completion is the management and control of thousands of inspection and test activities and records. Larger the volume and complexity of the data, more effort put into traceability and reliability. This resulted in high financial costs, higher volume of people, delayed response in case of failure or malfunction. Why not be a step ahead and have your own tool to manage your project.</span>
+                    <span>We have the latest technology and advanced expertise to reduce the amount of paper work and streamline the flow of information.</span>
+                    <span>Ask yourself…</span>
+                    <span>Do your cables have one, two or many ends? Are the junction boxes feeding different systems? How much pipe has been left to test?  Finding the answers is just a click away. Our completions tools are designed to provide real time information of every piece of equipment in the plant. You want these answers early enough before they become a nightmare at the end of the project.</span>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fa fa-sitemap"></i>
+                    <h2>Scalable</h2>
+                    <span>No matter the size of your project we can help you out. Our software can handle projects with hundreds, even thousands of systems and millions of tags. A lot of completions tools on the market are so expensive that you'd never think to use them on small projects. On maintenance projects you'd never think to use a completions tool because it would cost you an arm and a leg. Our on-demand model make it possible for you to have a first class tool on even the smallest of jobs.</span>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fa fa-dashboard"></i>
+                    <h2>Dashboard</h2>
+                    <span>There is an awful lot of data available during the construction of any facility. The most difficult part of managing that data is filtering it down so it make sense. We've taken a great deal of care in building visualizations and refining the data you see. We think that you'll like the results. Click on any of the pictures below for a closer look.</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Hosted</h2>
-          <p class="smallDescription">We'll take care of setting up servers and access so you don't have to worry about it.  Backups, restores, user management - we take care of it all!</p>
-          
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Proven</h2>
-          <p class="smallDescription">Our team has helped ensure the safe startup of numerous projects. We know the pitfalls - let us help you avoid them.</p>
-          
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Customizable</h2>
-          <p class="smallDescription">We've thought of most of the functionality you'll require. However, if there is something special you need then we can help out and build a solution to fit.</p>
-          
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
 
 
-      <div class="row majorRow">
-        <hr/>
-        <a name="modernCompletions"></a>
-        <div class="span12">
-          <h2>Modern Completions</h2>
-          <p>
-            Completion is the management and control of thousands of inspection and test activities and records. Larger the volume and complexity of the data, more effort put into traceability and reliability. This resulted in high financial costs, higher volume of people, delayed response in case of failure or malfunction. Why not be a step ahead and have your own tool to manage your project. 
-          </p>
-          <p>
-            We have the latest technology and advanced expertise to reduce the amount of paper work and streamline the flow of information.
-          </p>
-          <p>
-            Ask yourself…
-          </p>
-          <p>
-          Do your cables have one, two or many ends? Are the junction boxes feeding different systems? How much pipe has been left to test?  Finding the answers is just a click away. Our completions tools are designed to provide real time information of every piece of equipment in the plant. You want these answers early enough before they become a nightmare at the end of the project.
-          </p>
-          </span>
-        </div>
-      </div>
-
-      <div class="row majorRow">
-        <hr/>
-        <a name="scalable"></a>
-        <div class="span12">
-          <h2>Scalable</h2>
-        </div>
-      </div>
-      <div class="row">
-        <a name="scalable"></a>
-        <div class="span12">
-          No matter the size of your project we can help you out. Our software can handle projects with hundreds, even thousands of systems and millions of tags. A lot of completions tools on the market are so expensive that you'd never think to use them on small projects. On maintenance projects you'd never think to use a completions tool because it would cost you an arm and a leg. Our on-demand model make it possible for you to have a first class tool on even the smallest of jobs. 
-        </div>
-        
-      </div>
-
-
-      <div class="row majorRow">
-        <hr/>
-        <a name="dashboard"></a>
-        <div class="span12">
-          <h2>Dashboard</h2>
-          <p>
-            There is an awful lot of data available during the construction of any facility. The most difficult part of managing that data is filtering it down so it make sense. We've taken a great deal of care in building visualizations and refining the data you see. We think that you'll like the results. Click on any of the pictures below for a closer look. 
-          </p>
-        </div>
-      </div>     
       <div class="row">
         <div class="span4">
           <a href="img/Preservations1024.png" title="Monitor preservation activities" class="lightbox"><img src="img/PreservationsThumb.png"></img></a>
