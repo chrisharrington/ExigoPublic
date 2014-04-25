@@ -44,7 +44,7 @@
     border: none;
 }
 
-header { float:left; width:100%; background:black; }
+header { float:left; width:100%; background:linear-gradient(to bottom, #444444, #000000); }
 header>div.inner-header { width:1170px; margin:auto; padding:15px; height:40px; }
 header>div.inner-header>img { height:40px; }
 header>div.inner-header>ul { float:right; height:100%; }
@@ -67,3 +67,10 @@ div.row-container>div>div>div>h2 { float:left; margin-left:20px; height:54px; }
 div.row-container>div>div>div>span { float:left; width:100%; margin-top:15px; color:#999; }
 div.row-container>div>div.three>div { width:33.3333%; border-left:solid 1px #DDD; }
 div.row-container>div>div.three>div:first-child { border-left:none; }
+div.row-container>div>div>div>div.list { float:left; width:100%; box-sizing:border-box; -moz-box-sizing:border-box; padding:25px; padding-bottom:0; }
+div.row-container>div>div>div>div.list>ul { float:right; width:40%; margin:0; margin-left:30px; padding:0; box-sizing:border-box; -moz-box-sizing:border-box; }
+div.row-container>div>div>div>div.list>ul:first-child { float:left; margin-left:30px; }
+
+footer { float:left; width:100%; background:linear-gradient(to bottom, #444444, #000000); padding:12px 0; color:#888; }
+footer>div { width:1170px; margin:auto; height:16px; }
+footer p { margin:0 !important; }
