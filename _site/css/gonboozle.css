@@ -74,3 +74,6 @@ div.row-container>div>div>div>div.list>ul:first-child { float:left; margin-left:
 footer { float:left; width:100%; background:linear-gradient(to bottom, #444444, #000000); padding:12px 0; color:#888; }
 footer>div { width:1170px; margin:auto; height:16px; }
 footer p { margin:0 !important; }
+
+div.screenshot-container { float:left; width:100%; margin-top:15px; }
+.clickable-screenshot { float:left; padding:10px; box-sizing:border-box; -moz-box-sizing:border-box; width:25%; cursor:pointer; }
